@@ -1,18 +1,61 @@
-#paragraph{
-    background-color: dodgerblue;
+@font-face {
+    font-family: black;
+    src: url('fonts/Poppins-Black.ttf');
+}
+
+.paragraph{
+    background-color:rgb(30, 255, 124);
+    color: rgb(0, 0, 0);
+    margin: 5%;
+    font-family: black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: justify;
+    border: 4px solid rgb(111, 71, 255);
+    opacity: 0.9;
+
+}
+
+.paragraph1{
+    background-color:rgb(255, 75, 30);
     color: white;
     margin: 5%;
-    padding: 20px;
-    text-align: justify;
+    padding: 30px;
     font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid blue;
-}
-.about{
-    background: url('../images/bg.jpg');
-    width: 100%;
-    height: 100;
+    text-align: justify;
+    border: 4px solid rgb(252, 255, 71);
+    opacity: 0.9;
 
-    /* background-color: green;
-    opacity: 0.4; */
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    text-transform: uppercase;
+}
+
+.btn-primary{
+    background-color: rgb(71, 172, 255);
+    color: white;
+    border: none;
+    margin-left: 20px;
+    padding: 10px;
+    width: 100px;
+    height: 50px;
+    font-size: 16px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.main{
+    text-align: center;
+}
+
+.head{
+    color: rgb(65, 73, 57);
+    background-color: gold;
+    border-radius: 30px;
+    padding: 50px;
+    margin: 20px;
 }
